@@ -24,7 +24,7 @@ This project demonstrates how to implement the Porter Stemmer algorithm to proce
    Clone this repository to your local WordPress installation:
 
    ```sh
-   git clone git@github.com:ShoboySnr/wordpress-search-portal-stemmer.git
+   git clone git@github.com:ShoboySnr/wordpress-search-porter-stemmer.git
    ```
 2. **Upload to WordPress**
 
