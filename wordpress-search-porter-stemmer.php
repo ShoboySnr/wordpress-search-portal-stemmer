@@ -1,19 +1,19 @@
 <?php
 
 /*
-Plugin Name: Portal Stemmer Integration on WordPress
+Plugin Name: Porter Stemmer Integration on WordPress
 Plugin URI: https://kasianetwork.com/
-Description: Improving WordPress Default Search, WooCommerce Product Query and Products Filter Professional for WooCommerce (WOOF) Query using the Portal Stemmer Algorithm
+Description: Improving WordPress Default Search, WooCommerce Product Query and Products Filter Professional for WooCommerce (WOOF) Query using the Porter Stemmer Algorithm
 Version: 1.0.0
 Requires PHP: 7.0
 Requires at least: 5.0
 Author: Damilare Shobowale
 Author URI: https://techwithdee.com/
 License: GPL2
-Text Domain: wordpress-search-portal-stemmer
+Text Domain: wordpress-search-porter-stemmer
 */
 
-require "portal-stemmer.php";
+require "porter-stemmer.php";
 
 // Modify Default WordPress Search Query
 function custom_search_stemming($query) {
